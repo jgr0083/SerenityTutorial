@@ -1,0 +1,35 @@
+
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.6.0</version>
+				<!-- Enable "paths" Toolchain provided by Exec Maven Plugin -->
+				<extensions>true</extensions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-toolchains-plugin</artifactId>
+				<version>1.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>toolchain</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<toolchains>
+						<toolchain>
+							<type>jdk</type>
+							<provides>
+								<version>11</version>
+								<id>JavaSE-1.11</id>
+							</provides>
+							<configuration>
+								<jdkHome>C:\Program Files\Java\jdk-11.0.1</jdkHome>
+							</configuration>
+						</toolchain>
+					</toolchains>
+				</configuration>
+			</plugin>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.studentapp.junit.studentsinfo.TagsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.632 sec - in com.studentapp.junit.studentsinfo.TagsTest
